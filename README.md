@@ -15,6 +15,11 @@ Certain data sources are important to connect to but require using other python 
 * [Connect to Snowflake](#connect-to-snowflake)
 * [Connect to Azure Synapse](#connect-to-azure-synapse)
 
+It is important to have your Azure CLI ready to go for your deployment. Below are some resources to help you get started:
+* [Get Started with Azure CLI](https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli)
+* Install & use AML CLI Extension [V1](https://learn.microsoft.com/en-us/azure/machine-learning/v1/reference-azure-machine-learning-cli) and [V2](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-configure-cli?tabs=public)
+* Not sure what version of AML CLI Extension to use? Check out this [document](https://learn.microsoft.com/en-us/azure/machine-learning/concept-v2#should-i-use-v1-or-v2) to better understand the differences and whic version to use!
+
 ## Upload / Register a Model and Use it in Inference
 
 To quickly get started, you can upload and register a model and then run a pipeline with a dataset.
